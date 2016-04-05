@@ -1,0 +1,39 @@
+{
+  "name": "app-node-angular",
+  "version": "1.0.0",
+  "description": "angular app on nodejs",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test:run",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rossomasha/app-node-angular.git"
+  },
+  "keywords": [
+    "js",
+    "angular",
+    "nodejs"
+  ],
+  "author": "Rossomasha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rossomasha/app-node-angular/issues"
+  },
+  "homepage": "https://github.com/Rossomasha/app-node-angular#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.1.4",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.10",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "winston": "^2.2.0"
+  }
+}
